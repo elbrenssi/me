@@ -38,7 +38,7 @@ export const Navbar = () => {
           className="flex items-center hover:opacity-80"
         >
           <img
-            src="/logo.png"
+            src={`${import.meta.env.BASE_URL}logo.png`}
             alt="ELBRENSSI REDA"
             className="h-22 w-auto"
           />
